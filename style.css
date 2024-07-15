@@ -49,6 +49,9 @@
 }
 
 @media (max-width: 728px){
+  .logo{
+    width: 200px;
+  }
   body {
     font-family: "Poppins", sans-serif;
     margin: 50px 50px 0 50px;
@@ -74,22 +77,23 @@
     color: midnightblue;
   }
   
-  .left{
-    width: 100%;
-    display: block;
-  }
-  
-  .right{
+  .card{
     width: 100%;
     display: block;
   }
   
   div.card img{
+    margin-bottom: 10px;
     width: 100%;
+    display: inline;
+    object-fit: cover;
   }
 }
 
 @media (max-width: 612px){
+  .logo{
+    width: 130px;
+  }
   h1{
     font-size: 2em;
   }
